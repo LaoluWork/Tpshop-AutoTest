@@ -1,0 +1,6 @@
+[32mINFO    [0m root:test_login.py:25 准备输入登录的接口测试用例：username=，password=123456，code=8888
+[31m[1mERROR   [0m root:test_login.py:39 登录成功的接口测试出错了，原因是：assert '用户名不能为空' in '密码错误!'
+ +  where '密码错误!' = <built-in method get of dict object at 0x00000236B64DC9D8>('msg')
+ +    where <built-in method get of dict object at 0x00000236B64DC9D8> = {'msg': '密码错误!', 'status': -2}.get
+ +      where {'msg': '密码错误!', 'status': -2} = <bound method Response.json of <Response [200]>>()
+ +        where <bound method Response.json of <Response [200]>> = <Response [200]>.json

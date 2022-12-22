@@ -1,0 +1,1 @@
+[31m[1mERROR   [0m root:test_add_to_cart.py:58 添加商品到购物车的测试用例执行失败了，原因是：assert '小米手机5,十余项黑科技，很轻狠快' in 'Midea/美的 BCD-535WKZM(E)对开门电冰箱双开门冰箱智能风冷无霜'

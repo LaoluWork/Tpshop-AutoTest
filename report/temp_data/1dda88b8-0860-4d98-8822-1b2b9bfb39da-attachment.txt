@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_login.py:52 准备输入登录成功的用例：username=13554754719，password=123456，code=8888

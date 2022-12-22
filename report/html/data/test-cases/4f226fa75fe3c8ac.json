@@ -1,0 +1,91 @@
+{
+  "uid" : "4f226fa75fe3c8ac",
+  "name" : "test_add_to_cart[华为-3]",
+  "fullName" : "scripts.ui.test_add_to_cart.TestAddToCart#test_add_to_cart",
+  "historyId" : "2930396299dea07d37a9eb7e5da5a30e",
+  "time" : {
+    "start" : 1671637808310,
+    "stop" : 1671637838499,
+    "duration" : 30189
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1671637741628,
+      "stop" : 1671637743062,
+      "duration" : 1434
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1671637838500,
+      "stop" : 1671637840632,
+      "duration" : 2132
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts.ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_to_cart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddToCart"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BV7K5QK"
+  }, {
+    "name" : "thread",
+    "value" : "10120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.ui.test_add_to_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "buy_count",
+    "value" : "3"
+  }, {
+    "name" : "target_goods",
+    "value" : "'华为'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f226fa75fe3c8ac.json",
+  "parameterValues" : [ "3", "'华为'" ]
+}

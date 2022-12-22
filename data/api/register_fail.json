@@ -1,0 +1,10 @@
+{
+  "register_fail_01": {
+    "username": 123456789,
+    "code": 8888,
+    "password": 123456,
+    "password2": 123456,
+    "status": -1,
+    "msg": "请用手机号或邮箱注册"
+  }
+}

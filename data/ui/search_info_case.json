@@ -1,0 +1,22 @@
+{
+  "search_success_01": {
+    "target_goods": "小米",
+    "expect_info": "小米",
+    "case": "success"
+  },
+  "search_success_02": {
+    "target_goods": "华为",
+    "expect_info": "华为",
+    "case": "success"
+  },
+  "search_fail_01": {
+    "target_goods": "魅族",
+    "expect_info": "抱歉没找到您要搜索的商品",
+    "case": "fail"
+  },
+  "search_fail_02": {
+    "target_goods": "oppo",
+    "expect_info": "抱歉没找到您要搜索的商品",
+    "case": "fail"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "uid" : "6751eadf42dd0d2f",
+  "name" : "test_register[123456789-8888-123456-123456--1-请用手机号或邮箱注册]",
+  "fullName" : "scripts.api.test_register.TestRegisterApi#test_register",
+  "historyId" : "cd99e97a8f62d1b4f25792b18a00d1e9",
+  "time" : {
+    "start" : 1671638127343,
+    "stop" : 1671638131609,
+    "duration" : 4266
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts.api"
+  }, {
+    "name" : "suite",
+    "value" : "test_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegisterApi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BV7K5QK"
+  }, {
+    "name" : "thread",
+    "value" : "10120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.api.test_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "8888"
+  }, {
+    "name" : "msg",
+    "value" : "'请用手机号或邮箱注册'"
+  }, {
+    "name" : "password",
+    "value" : "123456"
+  }, {
+    "name" : "password2",
+    "value" : "123456"
+  }, {
+    "name" : "status",
+    "value" : "-1"
+  }, {
+    "name" : "username",
+    "value" : "123456789"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6751eadf42dd0d2f.json",
+  "parameterValues" : [ "8888", "'请用手机号或邮箱注册'", "123456", "123456", "-1", "123456789" ]
+}

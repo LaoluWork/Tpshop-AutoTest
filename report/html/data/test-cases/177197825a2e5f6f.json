@@ -1,0 +1,88 @@
+{
+  "uid" : "177197825a2e5f6f",
+  "name" : "test_place_order_success[my_cart]",
+  "fullName" : "scripts.ui.test_place_order.TestPlaceOrder#test_place_order_success",
+  "historyId" : "59371bd4331b01e1ab4a6f2ea17aa082",
+  "time" : {
+    "start" : 1671638050109,
+    "stop" : 1671638125225,
+    "duration" : 75116
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1671637840636,
+      "stop" : 1671637841916,
+      "duration" : 1280
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1671638125227,
+      "stop" : 1671638127339,
+      "duration" : 2112
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts.ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_place_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPlaceOrder"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BV7K5QK"
+  }, {
+    "name" : "thread",
+    "value" : "10120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.ui.test_place_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "'my_cart'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "177197825a2e5f6f.json",
+  "parameterValues" : [ "'my_cart'" ]
+}

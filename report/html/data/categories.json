@@ -1,0 +1,57 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '小米手机5,十余项黑科技，很轻狠快' in 'Midea/美的 BCD-535WKZM(E)对开门电冰箱双开门冰箱智能风冷无霜'",
+      "children" : [ {
+        "name" : "test_add_to_cart[小米-2]",
+        "uid" : "4a5db2b5f2420f6b",
+        "parentUid" : "4ece7f0d9316bcb77e4c65e6c92a2597",
+        "status" : "failed",
+        "time" : {
+          "start" : 1671637777809,
+          "stop" : 1671637805848,
+          "duration" : 28039
+        },
+        "flaky" : false,
+        "parameters" : [ "2", "'小米'" ]
+      } ],
+      "uid" : "4ece7f0d9316bcb77e4c65e6c92a2597"
+    }, {
+      "name" : "AssertionError: assert '用户名不能为空' in '密码错误!'\n +  where '密码错误!' = <built-in method get of dict object at 0x00000236B64DC9D8>('msg')\n +    where <built-in method get of dict object at 0x00000236B64DC9D8> = {'msg': '密码错误!', 'status': -2}.get\n +      where {'msg': '密码错误!', 'status': -2} = <bound method Response.json of <Response [200]>>()\n +        where <bound method Response.json of <Response [200]>> = <Response [200]>.json",
+      "children" : [ {
+        "name" : "test_login[-123456-8888--2-200-image-用户名不能为空]",
+        "uid" : "c7bb714cf6c6d648",
+        "parentUid" : "791b912effa5fd02e0cf4d1216d2dc6f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1671638140196,
+          "stop" : 1671638144442,
+          "duration" : 4246
+        },
+        "flaky" : false,
+        "parameters" : [ "8888", "'image'", "'用户名不能为空'", "123456", "-2", "200", "''" ]
+      } ],
+      "uid" : "791b912effa5fd02e0cf4d1216d2dc6f"
+    }, {
+      "name" : "AssertionError: assert -2 == -1\n  +-2\n  --1",
+      "children" : [ {
+        "name" : "test_login[13800138002-123456-8888--2-200-image-账号不存在]",
+        "uid" : "32208d1b103aeb46",
+        "parentUid" : "b350f7c32be6dd0c46d874c7ac8d4411",
+        "status" : "failed",
+        "time" : {
+          "start" : 1671638148762,
+          "stop" : 1671638153033,
+          "duration" : 4271
+        },
+        "flaky" : false,
+        "parameters" : [ "8888", "'image'", "'账号不存在'", "123456", "-2", "200", "13800138002" ]
+      } ],
+      "uid" : "b350f7c32be6dd0c46d874c7ac8d4411"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

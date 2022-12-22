@@ -1,0 +1,91 @@
+{
+  "uid" : "3eda748f20274d18",
+  "name" : "test_add_to_cart[美的-1]",
+  "fullName" : "scripts.ui.test_add_to_cart.TestAddToCart#test_add_to_cart",
+  "historyId" : "24e156c859065724ce9438d02671ce32",
+  "time" : {
+    "start" : 1671637745605,
+    "stop" : 1671637775393,
+    "duration" : 29788
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1671637741628,
+      "stop" : 1671637743062,
+      "duration" : 1434
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1671637838500,
+      "stop" : 1671637840632,
+      "duration" : 2132
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts.ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_to_cart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddToCart"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BV7K5QK"
+  }, {
+    "name" : "thread",
+    "value" : "10120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.ui.test_add_to_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "buy_count",
+    "value" : "1"
+  }, {
+    "name" : "target_goods",
+    "value" : "'美的'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3eda748f20274d18.json",
+  "parameterValues" : [ "1", "'美的'" ]
+}

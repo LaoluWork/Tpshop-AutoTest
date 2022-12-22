@@ -1,0 +1,85 @@
+{
+  "uid" : "a9bc4a1b88536236",
+  "name" : "test_place_order_fail_in_myCart_when_not_logged_in",
+  "fullName" : "scripts.ui.test_place_order.TestPlaceOrder#test_place_order_fail_in_myCart_when_not_logged_in",
+  "historyId" : "6bcd8e7ce91ada3d90ac04171e7974d9",
+  "time" : {
+    "start" : 1671637844459,
+    "stop" : 1671637873720,
+    "duration" : 29261
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1671637840636,
+      "stop" : 1671637841916,
+      "duration" : 1280
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1671638125227,
+      "stop" : 1671638127339,
+      "duration" : 2112
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts.ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_place_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPlaceOrder"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BV7K5QK"
+  }, {
+    "name" : "thread",
+    "value" : "10120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.ui.test_place_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a9bc4a1b88536236.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,26 @@
+{
+  "login_fail_01": {
+    "username": "",
+    "password": "123456",
+    "code": "8888",
+    "expect": "用户名不能为空"
+  },
+  "login_fail_02": {
+    "username": "13800138000",
+    "password": "",
+    "code": "8888",
+    "expect": "密码不能为空"
+  },
+  "login_fail_03": {
+    "username": "13800138000",
+    "password": "123456",
+    "code": "",
+    "expect": "验证码不能为空"
+  },
+  "login_fail_04": {
+    "username": "13800138008",
+    "password": "123456",
+    "code": "8888",
+    "expect": "账号不存在"
+  }
+}

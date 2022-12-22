@@ -1,0 +1,14 @@
+{
+  "register_success_01": {
+    "username": "13800138002",
+    "password": "123456",
+    "confirm_password": "123456",
+    "code": "8888"
+  },
+  "register_success_02": {
+    "username": "13800138003",
+    "password": "123456",
+    "confirm_password": "123456",
+    "code": "8888"
+  }
+}

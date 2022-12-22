@@ -1,0 +1,88 @@
+{
+  "uid" : "afffd3d168cd3a89",
+  "name" : "test_place_order_fail_when_no_address[my_cart]",
+  "fullName" : "scripts.ui.test_place_order.TestPlaceOrder#test_place_order_fail_when_no_address",
+  "historyId" : "e1411b0f1b1dbac2a2c2ccfb73c18915",
+  "time" : {
+    "start" : 1671637925650,
+    "stop" : 1671637961607,
+    "duration" : 35957
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1671637840636,
+      "stop" : 1671637841916,
+      "duration" : 1280
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1671638125227,
+      "stop" : 1671638127339,
+      "duration" : 2112
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts.ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_place_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPlaceOrder"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BV7K5QK"
+  }, {
+    "name" : "thread",
+    "value" : "10120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.ui.test_place_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "'my_cart'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "afffd3d168cd3a89.json",
+  "parameterValues" : [ "'my_cart'" ]
+}

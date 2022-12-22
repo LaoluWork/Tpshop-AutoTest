@@ -1,0 +1,130 @@
+{
+  "uid" : "c7bb714cf6c6d648",
+  "name" : "test_login[-123456-8888--2-200-image-用户名不能为空]",
+  "fullName" : "scripts.api.test_login.TestLoginApi#test_login",
+  "historyId" : "90827a1b51a70c4ecad2823f92fdc1dd",
+  "time" : {
+    "start" : 1671638140196,
+    "stop" : 1671638144442,
+    "duration" : 4246
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '用户名不能为空' in '密码错误!'\n +  where '密码错误!' = <built-in method get of dict object at 0x00000236B64DC9D8>('msg')\n +    where <built-in method get of dict object at 0x00000236B64DC9D8> = {'msg': '密码错误!', 'status': -2}.get\n +      where {'msg': '密码错误!', 'status': -2} = <bound method Response.json of <Response [200]>>()\n +        where <bound method Response.json of <Response [200]>> = <Response [200]>.json",
+  "statusTrace" : "self = <scripts.api.test_login.TestLoginApi object at 0x00000236B6529F98>, username = '', password = 123456, code = 8888, status = -2, status_code = 200\ncontent_type = 'image', msg = '用户名不能为空'\n\n    @pytest.mark.parametrize(\"username, password, code, status, status_code, content_type, msg\",\n                             get_data(\"api/login_case.json\"))\n    def test_login(self, username, password, code, status, status_code, content_type, msg):\n        try:\n            logger.info(\"准备输入登录的接口测试用例：username={}，password={}，code={}\".format(username, password, code))\n            # 先获取验证码来断言\n            response = self.login_api.get_verify_code(self.session)\n            assert status_code == response.status_code\n            assert content_type in response.headers.get(\"Content-Type\")\n    \n            # 登录断言\n            response = self.login_api.login(self.session, username, password, code)\n            assert status_code == response.status_code\n            assert status == response.json().get(\"status\")\n>           assert msg in response.json().get(\"msg\")\nE           AssertionError: assert '用户名不能为空' in '密码错误!'\nE            +  where '密码错误!' = <built-in method get of dict object at 0x00000236B64DC9D8>('msg')\nE            +    where <built-in method get of dict object at 0x00000236B64DC9D8> = {'msg': '密码错误!', 'status': -2}.get\nE            +      where {'msg': '密码错误!', 'status': -2} = <bound method Response.json of <Response [200]>>()\nE            +        where <bound method Response.json of <Response [200]>> = <Response [200]>.json\n\nscripts\\api\\test_login.py:35: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1671638131614,
+      "stop" : 1671638131614,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '用户名不能为空' in '密码错误!'\n +  where '密码错误!' = <built-in method get of dict object at 0x00000236B64DC9D8>('msg')\n +    where <built-in method get of dict object at 0x00000236B64DC9D8> = {'msg': '密码错误!', 'status': -2}.get\n +      where {'msg': '密码错误!', 'status': -2} = <bound method Response.json of <Response [200]>>()\n +        where <bound method Response.json of <Response [200]>> = <Response [200]>.json",
+    "statusTrace" : "self = <scripts.api.test_login.TestLoginApi object at 0x00000236B6529F98>, username = '', password = 123456, code = 8888, status = -2, status_code = 200\ncontent_type = 'image', msg = '用户名不能为空'\n\n    @pytest.mark.parametrize(\"username, password, code, status, status_code, content_type, msg\",\n                             get_data(\"api/login_case.json\"))\n    def test_login(self, username, password, code, status, status_code, content_type, msg):\n        try:\n            logger.info(\"准备输入登录的接口测试用例：username={}，password={}，code={}\".format(username, password, code))\n            # 先获取验证码来断言\n            response = self.login_api.get_verify_code(self.session)\n            assert status_code == response.status_code\n            assert content_type in response.headers.get(\"Content-Type\")\n    \n            # 登录断言\n            response = self.login_api.login(self.session, username, password, code)\n            assert status_code == response.status_code\n            assert status == response.json().get(\"status\")\n>           assert msg in response.json().get(\"msg\")\nE           AssertionError: assert '用户名不能为空' in '密码错误!'\nE            +  where '密码错误!' = <built-in method get of dict object at 0x00000236B64DC9D8>('msg')\nE            +    where <built-in method get of dict object at 0x00000236B64DC9D8> = {'msg': '密码错误!', 'status': -2}.get\nE            +      where {'msg': '密码错误!', 'status': -2} = <bound method Response.json of <Response [200]>>()\nE            +        where <bound method Response.json of <Response [200]>> = <Response [200]>.json\n\nscripts\\api\\test_login.py:35: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "678e7f8229b95425",
+      "name" : "log",
+      "source" : "678e7f8229b95425.txt",
+      "type" : "text/plain",
+      "size" : 671
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1671638153042,
+      "stop" : 1671638153042,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts.api"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginApi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BV7K5QK"
+  }, {
+    "name" : "thread",
+    "value" : "10120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.api.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "8888"
+  }, {
+    "name" : "content_type",
+    "value" : "'image'"
+  }, {
+    "name" : "msg",
+    "value" : "'用户名不能为空'"
+  }, {
+    "name" : "password",
+    "value" : "123456"
+  }, {
+    "name" : "status",
+    "value" : "-2"
+  }, {
+    "name" : "status_code",
+    "value" : "200"
+  }, {
+    "name" : "username",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c7bb714cf6c6d648.json",
+  "parameterValues" : [ "8888", "'image'", "'用户名不能为空'", "123456", "-2", "200", "''" ]
+}

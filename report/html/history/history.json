@@ -1,0 +1,518 @@
+{
+  "6bcd8e7ce91ada3d90ac04171e7974d9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9bc4a1b88536236",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671637844459,
+        "stop" : 1671637873720,
+        "duration" : 29261
+      }
+    } ]
+  },
+  "24e156c859065724ce9438d02671ce32" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3eda748f20274d18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671637745605,
+        "stop" : 1671637775393,
+        "duration" : 29788
+      }
+    } ]
+  },
+  "289175e90a9b131db579d9b433edc056" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "370a6c6a870f206c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671637728717,
+        "stop" : 1671637731167,
+        "duration" : 2450
+      }
+    } ]
+  },
+  "91dc0426cf1915fbd38c190349ec501c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6c80bed802f8134d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671637731172,
+        "stop" : 1671637739505,
+        "duration" : 8333
+      }
+    } ]
+  },
+  "0d04c4e76086cb7ba0aed0c457c1e1e8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a5db2b5f2420f6b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '小米手机5,十余项黑科技，很轻狠快' in 'Midea/美的 BCD-535WKZM(E)对开门电冰箱双开门冰箱智能风冷无霜'",
+      "time" : {
+        "start" : 1671637777809,
+        "stop" : 1671637805848,
+        "duration" : 28039
+      }
+    } ]
+  },
+  "c0988e56db631d941a02301756364210" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c1c7f3c31aac3165",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671637598449,
+        "stop" : 1671637631484,
+        "duration" : 33035
+      }
+    } ]
+  },
+  "8f490ee7267f1750ea6a166491c1f53f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd6f3e4ae8e3c227",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671637876101,
+        "stop" : 1671637886983,
+        "duration" : 10882
+      }
+    } ]
+  },
+  "6472e33a33f30267acc2f6b9d5a60c96" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a84304df83ac1724",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671637662115,
+        "stop" : 1671637665523,
+        "duration" : 3408
+      }
+    } ]
+  },
+  "37bed4878e2695139fb2872ca2f79cf2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "17d8e45b36a64314",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671637672309,
+        "stop" : 1671637675660,
+        "duration" : 3351
+      }
+    } ]
+  },
+  "2930396299dea07d37a9eb7e5da5a30e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4f226fa75fe3c8ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671637808310,
+        "stop" : 1671637838499,
+        "duration" : 30189
+      }
+    } ]
+  },
+  "07a5a8900ff4641588a72c2d82246637" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7312e753bbc9d0f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671637722390,
+        "stop" : 1671637728712,
+        "duration" : 6322
+      }
+    } ]
+  },
+  "b45d02626eb44ba2b7cf67f3657f3f3c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c4100c14e1b9bdf0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671637961737,
+        "stop" : 1671638047753,
+        "duration" : 86016
+      }
+    } ]
+  },
+  "331cba9cba678446341ac84d2bb083a5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b66501d72acabfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671637682461,
+        "stop" : 1671637695713,
+        "duration" : 13252
+      }
+    } ]
+  },
+  "90827a1b51a70c4ecad2823f92fdc1dd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c7bb714cf6c6d648",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '用户名不能为空' in '密码错误!'\n +  where '密码错误!' = <built-in method get of dict object at 0x00000236B64DC9D8>('msg')\n +    where <built-in method get of dict object at 0x00000236B64DC9D8> = {'msg': '密码错误!', 'status': -2}.get\n +      where {'msg': '密码错误!', 'status': -2} = <bound method Response.json of <Response [200]>>()\n +        where <bound method Response.json of <Response [200]>> = <Response [200]>.json",
+      "time" : {
+        "start" : 1671638140196,
+        "stop" : 1671638144442,
+        "duration" : 4246
+      }
+    } ]
+  },
+  "396e93b495a1d59494d6bbc098514206" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "48b91f59cf2e3d12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671637641740,
+        "stop" : 1671637645128,
+        "duration" : 3388
+      }
+    } ]
+  },
+  "8d0a72cec6fa32b5788ca57eca0f7691" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f5947be93e60a727",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671637651930,
+        "stop" : 1671637655327,
+        "duration" : 3397
+      }
+    } ]
+  },
+  "e1411b0f1b1dbac2a2c2ccfb73c18915" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "afffd3d168cd3a89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671637925650,
+        "stop" : 1671637961607,
+        "duration" : 35957
+      }
+    } ]
+  },
+  "258f60317085a5577b612280fb856526" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3808257326f3604",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671638135912,
+        "stop" : 1671638140188,
+        "duration" : 4276
+      }
+    } ]
+  },
+  "fdaf34176e4b0c7fd493d910739e186d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8a9e68c2b8a8a2bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671637889401,
+        "stop" : 1671637923234,
+        "duration" : 33833
+      }
+    } ]
+  },
+  "cd99e97a8f62d1b4f25792b18a00d1e9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6751eadf42dd0d2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671638127343,
+        "stop" : 1671638131609,
+        "duration" : 4266
+      }
+    } ]
+  },
+  "3483af0f3e15e24d8ff8a7b5b37236fc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36b64f6ae539ad89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671637554074,
+        "stop" : 1671637587496,
+        "duration" : 33422
+      }
+    } ]
+  },
+  "fb6b7e1017f5d256e559b46986da6581" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a1bc478cd2e7597",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671637702544,
+        "stop" : 1671637713962,
+        "duration" : 11418
+      }
+    } ]
+  },
+  "4be6697df69dce67026ec3bd603702c9" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32208d1b103aeb46",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert -2 == -1\n  +-2\n  --1",
+      "time" : {
+        "start" : 1671638148762,
+        "stop" : 1671638153033,
+        "duration" : 4271
+      }
+    } ]
+  },
+  "2d134bc0a4d126ee8ccd86f83774bd1b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d48a130dc1009ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671638144458,
+        "stop" : 1671638148755,
+        "duration" : 4297
+      }
+    } ]
+  },
+  "29126b68be1a36b4b18043a1616511e3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "95a6544199989b36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671638131615,
+        "stop" : 1671638135904,
+        "duration" : 4289
+      }
+    } ]
+  },
+  "59371bd4331b01e1ab4a6f2ea17aa082" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "177197825a2e5f6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671638050109,
+        "stop" : 1671638125225,
+        "duration" : 75116
+      }
+    } ]
+  },
+  "9517ead27d5051caba781069fc490a82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "38212f4e323b553a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671637719899,
+        "stop" : 1671637722385,
+        "duration" : 2486
+      }
+    } ]
+  }
+}

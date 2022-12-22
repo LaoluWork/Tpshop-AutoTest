@@ -1,0 +1,271 @@
+[ {
+  "uid" : "c4100c14e1b9bdf0",
+  "name" : "test_place_order_success[goods_detail]",
+  "time" : {
+    "start" : 1671637961737,
+    "stop" : 1671638047753,
+    "duration" : 86016
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3eda748f20274d18",
+  "name" : "test_add_to_cart[美的-1]",
+  "time" : {
+    "start" : 1671637745605,
+    "stop" : 1671637775393,
+    "duration" : 29788
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3808257326f3604",
+  "name" : "test_login[13554754719-123456-8888-1-200-image-登陆成功]",
+  "time" : {
+    "start" : 1671638135912,
+    "stop" : 1671638140188,
+    "duration" : 4276
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afffd3d168cd3a89",
+  "name" : "test_place_order_fail_when_no_address[my_cart]",
+  "time" : {
+    "start" : 1671637925650,
+    "stop" : 1671637961607,
+    "duration" : 35957
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38212f4e323b553a",
+  "name" : "test_search_info[小米-小米-success]",
+  "time" : {
+    "start" : 1671637719899,
+    "stop" : 1671637722385,
+    "duration" : 2486
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36b64f6ae539ad89",
+  "name" : "test_register_success[13800138002-123456-123456-8888]",
+  "time" : {
+    "start" : 1671637554074,
+    "stop" : 1671637587496,
+    "duration" : 33422
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5947be93e60a727",
+  "name" : "test_login_fail[13800138000--8888-密码不能为空]",
+  "time" : {
+    "start" : 1671637651930,
+    "stop" : 1671637655327,
+    "duration" : 3397
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6751eadf42dd0d2f",
+  "name" : "test_register[123456789-8888-123456-123456--1-请用手机号或邮箱注册]",
+  "time" : {
+    "start" : 1671638127343,
+    "stop" : 1671638131609,
+    "duration" : 4266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "370a6c6a870f206c",
+  "name" : "test_search_info[魅族-抱歉没找到您要搜索的商品-fail]",
+  "time" : {
+    "start" : 1671637728717,
+    "stop" : 1671637731167,
+    "duration" : 2450
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1c7f3c31aac3165",
+  "name" : "test_register_success[13800138003-123456-123456-8888]",
+  "time" : {
+    "start" : 1671637598449,
+    "stop" : 1671637631484,
+    "duration" : 33035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a84304df83ac1724",
+  "name" : "test_login_fail[13800138000-123456--验证码不能为空]",
+  "time" : {
+    "start" : 1671637662115,
+    "stop" : 1671637665523,
+    "duration" : 3408
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95a6544199989b36",
+  "name" : "test_login[13800138000-123456-8888-1-200-image-登陆成功]",
+  "time" : {
+    "start" : 1671638131615,
+    "stop" : 1671638135904,
+    "duration" : 4289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a1bc478cd2e7597",
+  "name" : "test_login_success[13554754719-123456-8888-13554754719]",
+  "time" : {
+    "start" : 1671637702544,
+    "stop" : 1671637713962,
+    "duration" : 11418
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a9e68c2b8a8a2bc",
+  "name" : "test_place_order_fail_when_no_address[goods_detail]",
+  "time" : {
+    "start" : 1671637889401,
+    "stop" : 1671637923234,
+    "duration" : 33833
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32208d1b103aeb46",
+  "name" : "test_login[13800138002-123456-8888--2-200-image-账号不存在]",
+  "time" : {
+    "start" : 1671638148762,
+    "stop" : 1671638153033,
+    "duration" : 4271
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a5db2b5f2420f6b",
+  "name" : "test_add_to_cart[小米-2]",
+  "time" : {
+    "start" : 1671637777809,
+    "stop" : 1671637805848,
+    "duration" : 28039
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "48b91f59cf2e3d12",
+  "name" : "test_login_fail[-123456-8888-用户名不能为空]",
+  "time" : {
+    "start" : 1671637641740,
+    "stop" : 1671637645128,
+    "duration" : 3388
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7312e753bbc9d0f9",
+  "name" : "test_search_info[华为-华为-success]",
+  "time" : {
+    "start" : 1671637722390,
+    "stop" : 1671637728712,
+    "duration" : 6322
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7bb714cf6c6d648",
+  "name" : "test_login[-123456-8888--2-200-image-用户名不能为空]",
+  "time" : {
+    "start" : 1671638140196,
+    "stop" : 1671638144442,
+    "duration" : 4246
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "177197825a2e5f6f",
+  "name" : "test_place_order_success[my_cart]",
+  "time" : {
+    "start" : 1671638050109,
+    "stop" : 1671638125225,
+    "duration" : 75116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd6f3e4ae8e3c227",
+  "name" : "test_place_order_fail_in_goods_detail_when_not_logged_in",
+  "time" : {
+    "start" : 1671637876101,
+    "stop" : 1671637886983,
+    "duration" : 10882
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17d8e45b36a64314",
+  "name" : "test_login_fail[13800138008-123456-8888-账号不存在]",
+  "time" : {
+    "start" : 1671637672309,
+    "stop" : 1671637675660,
+    "duration" : 3351
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9bc4a1b88536236",
+  "name" : "test_place_order_fail_in_myCart_when_not_logged_in",
+  "time" : {
+    "start" : 1671637844459,
+    "stop" : 1671637873720,
+    "duration" : 29261
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b66501d72acabfb",
+  "name" : "test_login_success[13800138000-123456-8888-LaoLu]",
+  "time" : {
+    "start" : 1671637682461,
+    "stop" : 1671637695713,
+    "duration" : 13252
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f226fa75fe3c8ac",
+  "name" : "test_add_to_cart[华为-3]",
+  "time" : {
+    "start" : 1671637808310,
+    "stop" : 1671637838499,
+    "duration" : 30189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d48a130dc1009ec",
+  "name" : "test_login[13800138000-123-8888--2-200-image-密码错误]",
+  "time" : {
+    "start" : 1671638144458,
+    "stop" : 1671638148755,
+    "duration" : 4297
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c80bed802f8134d",
+  "name" : "test_search_info[oppo-抱歉没找到您要搜索的商品-fail]",
+  "time" : {
+    "start" : 1671637731172,
+    "stop" : 1671637739505,
+    "duration" : 8333
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

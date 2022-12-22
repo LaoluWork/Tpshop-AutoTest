@@ -1,0 +1,49 @@
+2022-12-11 11:57:36,268 INFO [test_search_info.py(test_search_info:35)] - 2177741456944
+2022-12-11 11:57:38,760 INFO [test_search_info.py(test_search_info:35)] - 2177741456944
+2022-12-11 11:57:47,082 INFO [test_search_info.py(test_search_info:35)] - 2177741456944
+2022-12-11 11:57:49,599 INFO [test_search_info.py(test_search_info:35)] - 2177741456944
+2022-12-11 12:04:38,705 INFO [test_search_info.py(test_search_info:30)] - 0
+2022-12-11 12:04:45,238 INFO [test_search_info.py(test_search_info:30)] - 1
+2022-12-11 12:04:47,770 INFO [test_search_info.py(test_search_info:30)] - 2
+2022-12-11 12:04:52,225 INFO [test_search_info.py(test_search_info:30)] - 3
+2022-12-11 12:18:54,414 ERROR [test_add_to_cart.py(test_add_to_cart:57)] - 添加商品到购物车的测试用例执行失败了，原因是：assert '小米手机5,十余项黑科技，很轻狠快' in 'Midea/美的 BCD-535WKZM(E)对开门电冰箱双开门冰箱智能风冷无霜'
+2022-12-11 12:19:25,029 ERROR [test_add_to_cart.py(test_add_to_cart:57)] - 添加商品到购物车的测试用例执行失败了，原因是：assert '华为（HUAWEI） M2 8英寸平板电脑（1920×1200 IPS屏 海思麒麟930 16GB WiFi）香槟金' in 'Midea/美的 BCD-535WKZM(E)对开门电冰箱双开门冰箱智能风冷无霜'
+2022-12-11 12:19:39,634 INFO [test_login.py(test_login_fail:33)] - 准备输入登录失败的用例：username=，password=123456，code=8888
+2022-12-11 12:19:40,999 INFO [test_login.py(test_login_fail:33)] - 准备输入登录失败的用例：username=13800138000，password=，code=8888
+2022-12-11 12:19:44,407 INFO [test_login.py(test_login_fail:33)] - 准备输入登录失败的用例：username=13800138000，password=123456，code=
+2022-12-11 12:19:45,721 INFO [test_login.py(test_login_fail:33)] - 准备输入登录失败的用例：username=13800138001，password=123456，code=8888
+2022-12-11 12:19:51,116 ERROR [test_login.py(test_login_fail:41)] - 登录失败的ui测试出错了，原因是：assert '账号不存在' in '密码错误!'
+2022-12-11 12:19:51,382 INFO [test_login.py(test_login_success:51)] - 准备输入登录成功的用例：username=13800138000，password=123456，code=8888
+2022-12-11 12:20:07,197 INFO [test_login.py(test_login_success:51)] - 准备输入登录成功的用例：username=13554754719，password=123456，code=8888
+2022-12-11 12:20:30,575 ERROR [test_login.py(test_login_success:62)] - 登录成功的ui测试出错了，原因是：Message: 
+
+2022-12-11 12:20:36,698 INFO [test_search_info.py(test_search_info:30)] - 0
+2022-12-11 12:20:45,307 INFO [test_search_info.py(test_search_info:30)] - 1
+2022-12-11 12:20:47,776 INFO [test_search_info.py(test_search_info:30)] - 2
+2022-12-11 12:20:54,081 INFO [test_search_info.py(test_search_info:30)] - 3
+2022-12-11 14:22:49,155 INFO [test_login.py(test_login_fail:34)] - 准备输入登录失败的用例：username=，password=123456，code=8888
+2022-12-11 14:22:50,490 INFO [test_login.py(test_login_fail:34)] - 准备输入登录失败的用例：username=13800138000，password=，code=8888
+2022-12-11 14:22:53,912 INFO [test_login.py(test_login_fail:34)] - 准备输入登录失败的用例：username=13800138000，password=123456，code=
+2022-12-11 14:22:57,292 INFO [test_login.py(test_login_fail:34)] - 准备输入登录失败的用例：username=13800138001，password=123456，code=8888
+2022-12-11 14:23:02,704 ERROR [test_login.py(test_login_fail:42)] - 登录失败的ui测试出错了，原因是：assert '账号不存在' in '密码错误!'
+2022-12-11 14:23:03,019 INFO [test_login.py(test_login_success:52)] - 准备输入登录成功的用例：username=13800138000，password=123456，code=8888
+2022-12-11 14:23:18,895 INFO [test_login.py(test_login_success:52)] - 准备输入登录成功的用例：username=13554754719，password=123456，code=8888
+2022-12-11 14:25:15,485 ERROR [test_add_to_cart.py(test_add_to_cart:58)] - 添加商品到购物车的测试用例执行失败了，原因是：assert '华为（HUAWEI） M2 8英寸平板电脑（1920×1200 IPS屏 海思麒麟930 16GB WiFi）香槟金' in '小米手机5,十余项黑科技，很轻狠快\n内存:32G 颜色:黑色'
+2022-12-11 14:57:35,694 ERROR [test_add_to_cart.py(test_add_to_cart:58)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: 
+
+2022-12-11 16:29:56,790 INFO [test_place_order.py(test_place_order:56)] - ('goods_detail',)
+2022-12-11 16:30:25,228 INFO [test_place_order.py(test_place_order:56)] - ('my_cart',)
+2022-12-11 16:31:23,001 INFO [test_place_order.py(test_place_order:56)] - ('goods_detail',)
+2022-12-11 16:32:42,377 INFO [test_place_order.py(test_place_order:56)] - ('goods_detail',)
+2022-12-11 16:32:58,333 INFO [test_place_order.py(test_place_order:69)] - 当前case是('goods_detail',)，购物车下单
+2022-12-11 16:33:12,748 INFO [test_place_order.py(test_place_order:56)] - ('my_cart',)
+2022-12-11 16:33:26,412 INFO [test_place_order.py(test_place_order:69)] - 当前case是('my_cart',)，购物车下单
+2022-12-11 16:34:30,603 INFO [test_place_order.py(test_place_order:57)] - ('goods_detail',)
+2022-12-11 16:38:42,740 INFO [test_place_order.py(test_place_order:57)] - goods_detail
+2022-12-11 16:38:42,740 INFO [test_place_order.py(test_place_order:59)] - case比较之后进来了。。。
+2022-12-11 16:39:17,499 INFO [test_place_order.py(test_place_order:57)] - my_cart
+2022-12-11 16:39:30,588 INFO [test_place_order.py(test_place_order:70)] - 当前case是my_cart，购物车下单
+2022-12-11 16:41:08,777 INFO [test_place_order.py(test_place_order:57)] - goods_detail
+2022-12-11 16:41:08,777 INFO [test_place_order.py(test_place_order:59)] - case比较之后进来了。。。
+2022-12-11 16:41:45,946 INFO [test_place_order.py(test_place_order:57)] - my_cart
+2022-12-11 16:41:57,153 INFO [test_place_order.py(test_place_order:68)] - 当前case是my_cart，购物车下单

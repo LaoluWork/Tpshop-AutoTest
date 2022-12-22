@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_login.py:25 准备输入登录的接口测试用例：username=13800138000，password=123，code=8888

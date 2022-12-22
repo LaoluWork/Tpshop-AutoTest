@@ -1,0 +1,82 @@
+2022-12-05 00:18:13,871 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: 
+
+2022-12-05 00:21:17,194 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：can't multiply sequence by non-int of type 'str'
+2022-12-05 00:23:01,833 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：could not convert string to float: '￥2799.00'
+2022-12-05 00:27:38,856 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：could not convert string to float: 
+2022-12-05 00:30:45,557 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: element click intercepted: Element <a class="add" href="javascript:void(0);" onclick="altergoodsnum(1)">...</a> is not clickable at point (738, 517). Other element would receive the click: <img class="bigimg" src="/public/upload/goods/thumb/65/goods_thumb_65_800_800.jpeg">
+  (Session info: chrome=100.0.4896.60)
+
+2022-12-05 00:32:19,451 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：unexpected EOF while parsing (<string>, line 0)
+2022-12-05 00:37:04,689 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: element not interactable: element has zero size
+  (Session info: chrome=100.0.4896.60)
+
+2022-12-05 14:54:37,972 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: element not interactable: element has zero size
+  (Session info: chrome=100.0.4896.60)
+
+2022-12-05 15:07:50,716 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: element not interactable: element has zero size
+  (Session info: chrome=100.0.4896.60)
+
+2022-12-05 15:18:35,486 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：go_my_cart() missing 1 required positional argument: 'driver'
+2022-12-05 15:19:12,865 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: element not interactable: element has zero size
+  (Session info: chrome=100.0.4896.60)
+
+2022-12-05 15:24:30,482 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：click_continue_shopping() takes 1 positional argument but 2 were given
+2022-12-05 15:25:30,980 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: element not interactable: [object HTMLDivElement] has no size and location
+  (Session info: chrome=100.0.4896.60)
+
+2022-12-05 15:36:08,290 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: element not interactable: [object HTMLDivElement] has no size and location
+  (Session info: chrome=100.0.4896.60)
+
+2022-12-05 15:50:44,892 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：assert '长虹(CHANGHONG...ED液晶电视\n尺寸:42' == '长虹(CHANGHONG...超清智能网络LED液晶电视'
+  - 长虹(CHANGHONG) 49A1U 49英寸双64位4K超清智能网络LED液晶电视
+  + 长虹(CHANGHONG) 49A1U 49英寸双64位4K超清智能网络LED液晶电视
+  ?                                            +
+  + 尺寸:42
+2022-12-05 15:54:49,939 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：assert '长虹(CHANGHONG...ED液晶电视\n尺寸:42' == '长虹(CHANGHONG...超清智能网络LED液晶电视'
+  - 长虹(CHANGHONG) 49A1U 49英寸双64位4K超清智能网络LED液晶电视
+  + 长虹(CHANGHONG) 49A1U 49英寸双64位4K超清智能网络LED液晶电视
+  ?                                            +
+  + 尺寸:42
+2022-12-05 16:07:57,769 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: 
+
+2022-12-05 16:13:48,843 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: 
+
+2022-12-05 16:16:24,432 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：assert '长虹(CHANGHONG...ED液晶电视\n尺寸:42' == '长虹(CHANGHONG...超清智能网络LED液晶电视'
+  - 长虹(CHANGHONG) 49A1U 49英寸双64位4K超清智能网络LED液晶电视
+  + 长虹(CHANGHONG) 49A1U 49英寸双64位4K超清智能网络LED液晶电视
+  ?                                            +
+  + 尺寸:42
+2022-12-05 16:20:18,640 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：assert '长虹(CHANGHONG...ED液晶电视\n尺寸:42' == '长虹(CHANGHONG...超清智能网络LED液晶电视'
+  - 长虹(CHANGHONG) 49A1U 49英寸双64位4K超清智能网络LED液晶电视
+  + 长虹(CHANGHONG) 49A1U 49英寸双64位4K超清智能网络LED液晶电视
+  ?                                            +
+  + 尺寸:42
+2022-12-05 16:21:39,571 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：assert '长虹(CHANGHONG...ED液晶电视\n尺寸:42' == '长虹(CHANGHONG...超清智能网络LED液晶电视'
+  - 长虹(CHANGHONG) 49A1U 49英寸双64位4K超清智能网络LED液晶电视
+  + 长虹(CHANGHONG) 49A1U 49英寸双64位4K超清智能网络LED液晶电视
+  ?                                            +
+  + 尺寸:42
+2022-12-05 16:25:26,896 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：edit_buy_count() missing 1 required positional argument: 'driver'
+2022-12-05 16:26:13,538 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：assert '长虹(CHANGHONG...ED液晶电视\n尺寸:42' == '长虹(CHANGHONG...超清智能网络LED液晶电视'
+  - 长虹(CHANGHONG) 49A1U 49英寸双64位4K超清智能网络LED液晶电视
+  + 长虹(CHANGHONG) 49A1U 49英寸双64位4K超清智能网络LED液晶电视
+  ?                                            +
+  + 尺寸:42
+2022-12-05 16:28:49,393 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：assert '长虹(CHANGHONG...ED液晶电视\n尺寸:42' == '长虹(CHANGHONG...超清智能网络LED液晶电视'
+  - 长虹(CHANGHONG) 49A1U 49英寸双64位4K超清智能网络LED液晶电视
+  + 长虹(CHANGHONG) 49A1U 49英寸双64位4K超清智能网络LED液晶电视
+  ?                                            +
+  + 尺寸:42
+2022-12-05 16:44:06,020 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: 
+
+2022-12-05 16:53:51,646 ERROR [test_add_to_cart.py(test_add_to_cart:40)] - 添加商品到购物车的测试用例执行失败了，原因是：assert '2799.00' == '￥2799.00'
+  - ￥2799.00
+  ? -
+  + 2799.00
+2022-12-05 16:56:57,757 ERROR [test_add_to_cart.py(test_add_to_cart:40)] - 添加商品到购物车的测试用例执行失败了，原因是：'str' object has no attribute 'repalce'
+2022-12-05 16:58:09,362 ERROR [test_add_to_cart.py(test_add_to_cart:40)] - 添加商品到购物车的测试用例执行失败了，原因是：assert '2799.00' == '￥2799.00'
+  - ￥2799.00
+  ? -
+  + 2799.00
+2022-12-05 16:59:22,864 ERROR [test_add_to_cart.py(test_add_to_cart:40)] - 添加商品到购物车的测试用例执行失败了，原因是：assert '3' == ''
+  + 3

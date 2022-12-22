@@ -1,0 +1,121 @@
+{
+  "uid" : "4a5db2b5f2420f6b",
+  "name" : "test_add_to_cart[小米-2]",
+  "fullName" : "scripts.ui.test_add_to_cart.TestAddToCart#test_add_to_cart",
+  "historyId" : "0d04c4e76086cb7ba0aed0c457c1e1e8",
+  "time" : {
+    "start" : 1671637777809,
+    "stop" : 1671637805848,
+    "duration" : 28039
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '小米手机5,十余项黑科技，很轻狠快' in 'Midea/美的 BCD-535WKZM(E)对开门电冰箱双开门冰箱智能风冷无霜'",
+  "statusTrace" : "self = <scripts.ui.test_add_to_cart.TestAddToCart object at 0x00000236B64BFB00>, target_goods = '小米', buy_count = 2\n\n    @pytest.mark.parametrize(\"target_goods, buy_count\", get_data(\"ui/add_to_cart_case.json\"))\n    def test_add_to_cart(self, target_goods, buy_count):\n        try:\n            # 直接在首页搜索进入某个商品的详情页\n            self.home_service.search_goods(target_goods)\n            self.search_info_service.go_goods_detail()\n    \n            # 设置购买数量，添加到购物车，同时查询得到当前商品的简要信息\n            self.goods_detail_service.edit_buy_count(buy_count)\n            self.goods_detail_service.add_to_cart(self.driver)\n            expect_goods_info = self.goods_detail_service.get_goods_general_info()\n    \n            TestAddToCart.__all_goods_total_fee += expect_goods_info[\"total_price\"]\n    \n            # 进入我的购物车页面，判断对应商品是否正确地被添加\n            self.goods_detail_service.go_my_cart()\n            actual_goods_info = self.my_cart_service.get_newest_item_info()\n    \n>           assert expect_goods_info[\"goods_title\"] in actual_goods_info[\"goods_title\"]\nE           AssertionError: assert '小米手机5,十余项黑科技，很轻狠快' in 'Midea/美的 BCD-535WKZM(E)对开门电冰箱双开门冰箱智能风冷无霜'\n\nscripts\\ui\\test_add_to_cart.py:51: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1671637741628,
+      "stop" : 1671637743062,
+      "duration" : 1434
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '小米手机5,十余项黑科技，很轻狠快' in 'Midea/美的 BCD-535WKZM(E)对开门电冰箱双开门冰箱智能风冷无霜'",
+    "statusTrace" : "self = <scripts.ui.test_add_to_cart.TestAddToCart object at 0x00000236B64BFB00>, target_goods = '小米', buy_count = 2\n\n    @pytest.mark.parametrize(\"target_goods, buy_count\", get_data(\"ui/add_to_cart_case.json\"))\n    def test_add_to_cart(self, target_goods, buy_count):\n        try:\n            # 直接在首页搜索进入某个商品的详情页\n            self.home_service.search_goods(target_goods)\n            self.search_info_service.go_goods_detail()\n    \n            # 设置购买数量，添加到购物车，同时查询得到当前商品的简要信息\n            self.goods_detail_service.edit_buy_count(buy_count)\n            self.goods_detail_service.add_to_cart(self.driver)\n            expect_goods_info = self.goods_detail_service.get_goods_general_info()\n    \n            TestAddToCart.__all_goods_total_fee += expect_goods_info[\"total_price\"]\n    \n            # 进入我的购物车页面，判断对应商品是否正确地被添加\n            self.goods_detail_service.go_my_cart()\n            actual_goods_info = self.my_cart_service.get_newest_item_info()\n    \n>           assert expect_goods_info[\"goods_title\"] in actual_goods_info[\"goods_title\"]\nE           AssertionError: assert '小米手机5,十余项黑科技，很轻狠快' in 'Midea/美的 BCD-535WKZM(E)对开门电冰箱双开门冰箱智能风冷无霜'\n\nscripts\\ui\\test_add_to_cart.py:51: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "be6789368e8a5fb1",
+      "name" : "添加商品到购物车的测试用例执行失败",
+      "source" : "be6789368e8a5fb1.png",
+      "type" : "image/png",
+      "size" : 253896
+    }, {
+      "uid" : "6bea79360fc828cd",
+      "name" : "log",
+      "source" : "6bea79360fc828cd.txt",
+      "type" : "text/plain",
+      "size" : 259
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1671637838500,
+      "stop" : 1671637840632,
+      "duration" : 2132
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts.ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_to_cart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddToCart"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BV7K5QK"
+  }, {
+    "name" : "thread",
+    "value" : "10120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.ui.test_add_to_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "buy_count",
+    "value" : "2"
+  }, {
+    "name" : "target_goods",
+    "value" : "'小米'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4a5db2b5f2420f6b.json",
+  "parameterValues" : [ "2", "'小米'" ]
+}

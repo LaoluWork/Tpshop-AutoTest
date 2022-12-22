@@ -1,0 +1,54 @@
+2022-12-06 12:04:01,040 ERROR [test_add_to_cart.py(test_add_to_cart:41)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: 
+
+2022-12-06 12:06:36,969 ERROR [test_add_to_cart.py(test_add_to_cart:41)] - 添加商品到购物车的测试用例执行失败了，原因是：assert '3' == ''
+  + 3
+2022-12-06 12:10:40,090 ERROR [test_add_to_cart.py(test_add_to_cart:41)] - 添加商品到购物车的测试用例执行失败了，原因是：assert 8397.0 == '8397'
+  +8397.0
+  -'8397'
+2022-12-06 12:15:31,988 ERROR [test_add_to_cart.py(test_add_to_cart:41)] - 添加商品到购物车的测试用例执行失败了，原因是：assert 8397.0 == '8397'
+  +8397.0
+  -'8397'
+2022-12-06 12:17:28,127 ERROR [test_add_to_cart.py(test_add_to_cart:41)] - 添加商品到购物车的测试用例执行失败了，原因是：assert 8397.0 == '8397'
+  +8397.0
+  -'8397'
+2022-12-06 12:20:44,023 ERROR [test_add_to_cart.py(test_add_to_cart:41)] - 添加商品到购物车的测试用例执行失败了，原因是：assert 8397.0 == '8397'
+  +8397.0
+  -'8397'
+2022-12-06 12:23:17,698 ERROR [test_add_to_cart.py(test_add_to_cart:41)] - 添加商品到购物车的测试用例执行失败了，原因是：assert 8397.0 == '8397.00'
+  +8397.0
+  -'8397.00'
+2022-12-06 15:18:51,256 ERROR [test_add_to_cart.py(test_add_to_cart:58)] - 添加商品到购物车的测试用例执行失败了，原因是：could not convert string to float: 
+2022-12-06 15:19:01,682 ERROR [test_add_to_cart.py(test_add_to_cart:58)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: 
+
+2022-12-06 15:19:12,054 ERROR [test_add_to_cart.py(test_add_to_cart:58)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: 
+
+2022-12-06 15:23:00,299 ERROR [test_add_to_cart.py(test_add_to_cart:58)] - 添加商品到购物车的测试用例执行失败了，原因是：could not convert string to float: 
+2022-12-06 15:23:10,705 ERROR [test_add_to_cart.py(test_add_to_cart:58)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: 
+
+2022-12-06 15:23:21,069 ERROR [test_add_to_cart.py(test_add_to_cart:58)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: 
+
+2022-12-06 15:24:13,370 ERROR [test_add_to_cart.py(test_add_to_cart:58)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: 
+
+2022-12-06 15:24:23,749 ERROR [test_add_to_cart.py(test_add_to_cart:58)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: 
+
+2022-12-06 15:35:21,853 WARNING [connectionpool.py(urlopen:813)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024D9B7BF278>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/5141ec463f62ce51abbfb3f138cb2b52
+2022-12-06 15:35:23,901 WARNING [connectionpool.py(urlopen:813)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024D9BDA7630>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/5141ec463f62ce51abbfb3f138cb2b52
+2022-12-06 15:35:25,943 WARNING [connectionpool.py(urlopen:813)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024D9BDA7780>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/5141ec463f62ce51abbfb3f138cb2b52
+2022-12-06 15:38:09,066 WARNING [connectionpool.py(urlopen:813)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014EF7B6CCF8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/11b750b72ee9dcfc55ea9cc07935b05c
+2022-12-06 15:38:11,121 WARNING [connectionpool.py(urlopen:813)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014EF8229898>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/11b750b72ee9dcfc55ea9cc07935b05c
+2022-12-06 15:38:13,175 WARNING [connectionpool.py(urlopen:813)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014EF82299B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/11b750b72ee9dcfc55ea9cc07935b05c
+2022-12-06 15:40:46,412 WARNING [connectionpool.py(urlopen:813)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000247EA5FA278>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/63f92697ccce0df920276f4b6133dd05
+2022-12-06 15:40:48,442 WARNING [connectionpool.py(urlopen:813)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000247EABF9668>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/63f92697ccce0df920276f4b6133dd05
+2022-12-06 15:40:50,488 WARNING [connectionpool.py(urlopen:813)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000247EABF9630>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/63f92697ccce0df920276f4b6133dd05
+2022-12-06 15:44:02,705 ERROR [test_add_to_cart.py(test_add_to_cart:52)] - 添加商品到购物车的测试用例执行失败了，原因是：assert 12000.0 == 15499.0
+  +12000.0
+  -15499.0
+2022-12-06 15:44:40,823 ERROR [test_add_to_cart.py(test_add_to_cart:52)] - 添加商品到购物车的测试用例执行失败了，原因是：assert 4764.0 == 20263.0
+  +4764.0
+  -20263.0
+2022-12-06 15:54:46,305 WARNING [connectionpool.py(urlopen:813)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027017E6E860>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/d818ff466c6b7b2cb9184720aee14eab
+2022-12-06 15:54:48,323 WARNING [connectionpool.py(urlopen:813)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027018452630>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/d818ff466c6b7b2cb9184720aee14eab
+2022-12-06 15:54:50,339 WARNING [connectionpool.py(urlopen:813)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000270184520B8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/d818ff466c6b7b2cb9184720aee14eab
+2022-12-06 15:57:40,665 ERROR [test_add_to_cart.py(test_add_to_cart:53)] - 添加商品到购物车的测试用例执行失败了，原因是：assert 12000.0 == 15499.0
+  +12000.0
+  -15499.0

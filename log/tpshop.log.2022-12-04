@@ -1,0 +1,10 @@
+2022-12-04 11:35:14,364 ERROR [test_search_info.py(test_search_info:30)] - 搜索商品成功的测试用例失败了，原因是：assert '魅族' in '-- 抱歉没找到您要搜索的商品，换个条件试试！--'
+2022-12-04 11:35:20,668 ERROR [test_search_info.py(test_search_info:30)] - 搜索商品成功的测试用例失败了，原因是：assert 'oppo' in '-- 抱歉没找到您要搜索的商品，换个条件试试！--'
+2022-12-04 21:18:09,063 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: 
+
+2022-12-04 21:19:27,822 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: 
+
+2022-12-04 21:22:38,239 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: 
+
+2022-12-04 21:25:15,240 ERROR [test_add_to_cart.py(test_add_to_cart:37)] - 添加商品到购物车的测试用例执行失败了，原因是：Message: 
+

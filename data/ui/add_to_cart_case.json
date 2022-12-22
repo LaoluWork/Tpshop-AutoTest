@@ -1,0 +1,14 @@
+{
+  "add_to_cart_01": {
+    "target_goods": "美的",
+    "buy_count": 1
+  },
+  "add_to_cart_02": {
+    "target_goods": "小米",
+    "buy_count": 2
+  },
+  "add_to_cart_03": {
+    "target_goods": "华为",
+    "buy_count": 3
+  }
+}

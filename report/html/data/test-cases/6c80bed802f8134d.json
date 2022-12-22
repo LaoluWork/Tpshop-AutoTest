@@ -1,0 +1,94 @@
+{
+  "uid" : "6c80bed802f8134d",
+  "name" : "test_search_info[oppo-抱歉没找到您要搜索的商品-fail]",
+  "fullName" : "scripts.ui.test_search_info.TestSearchInfo#test_search_info",
+  "historyId" : "91dc0426cf1915fbd38c190349ec501c",
+  "time" : {
+    "start" : 1671637731172,
+    "stop" : 1671637739505,
+    "duration" : 8333
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1671637716081,
+      "stop" : 1671637719898,
+      "duration" : 3817
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1671637739508,
+      "stop" : 1671637741626,
+      "duration" : 2118
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts.ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_search_info"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearchInfo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BV7K5QK"
+  }, {
+    "name" : "thread",
+    "value" : "10120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.ui.test_search_info"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "'fail'"
+  }, {
+    "name" : "expect_info",
+    "value" : "'抱歉没找到您要搜索的商品'"
+  }, {
+    "name" : "target_goods",
+    "value" : "'oppo'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c80bed802f8134d.json",
+  "parameterValues" : [ "'fail'", "'抱歉没找到您要搜索的商品'", "'oppo'" ]
+}

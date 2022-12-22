@@ -1,0 +1,122 @@
+{
+  "uid" : "4d48a130dc1009ec",
+  "name" : "test_login[13800138000-123-8888--2-200-image-密码错误]",
+  "fullName" : "scripts.api.test_login.TestLoginApi#test_login",
+  "historyId" : "2d134bc0a4d126ee8ccd86f83774bd1b",
+  "time" : {
+    "start" : 1671638144458,
+    "stop" : 1671638148755,
+    "duration" : 4297
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1671638131614,
+      "stop" : 1671638131614,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d88d75c0918a5de3",
+      "name" : "log",
+      "source" : "d88d75c0918a5de3.txt",
+      "type" : "text/plain",
+      "size" : 129
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1671638153042,
+      "stop" : 1671638153042,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts.api"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginApi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BV7K5QK"
+  }, {
+    "name" : "thread",
+    "value" : "10120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.api.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "8888"
+  }, {
+    "name" : "content_type",
+    "value" : "'image'"
+  }, {
+    "name" : "msg",
+    "value" : "'密码错误'"
+  }, {
+    "name" : "password",
+    "value" : "123"
+  }, {
+    "name" : "status",
+    "value" : "-2"
+  }, {
+    "name" : "status_code",
+    "value" : "200"
+  }, {
+    "name" : "username",
+    "value" : "13800138000"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d48a130dc1009ec.json",
+  "parameterValues" : [ "8888", "'image'", "'密码错误'", "123", "-2", "200", "13800138000" ]
+}
